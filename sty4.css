@@ -1,0 +1,261 @@
+*{
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	background: black;
+	font-family: calibri;
+	font-size: 10px;
+	background:linear-gradient(to bottom right, rgb(0,0,0),rgb(55,55,55))	
+}
+main{
+	width: 95%;
+	max-width: 720px;
+	margin:auto;
+}
+a{
+	text-decoration: none;
+}
+li{
+	list-style-type: none;
+}
+button{
+	outline:none;
+	border:none;
+	cursor: pointer;
+}
+#mygif{
+	width: 100%;
+	max-width: 450px;
+	margin:auto;
+}
+
+
+	#secA>h1{
+		font-size: 4em;
+		color: white;
+		text-align: center;
+		font-weight: bolder;
+	}
+	#secA>h1>span{
+		font-family: cooper-black;
+	}
+	#secA>h2{
+		font-size: 2.2em;
+		color: yellow;
+		text-align: center;
+		font-weight: bolder;
+	}
+	#secA>p{
+		font-size:1.4em;
+		color: white;
+		max-width:450px;
+		width: 80%;
+		margin:auto;
+		text-align: center;
+		font-weight: bolder;
+
+	}
+
+	#secB{
+		font-size: 1.6em;
+		color: white;
+		padding: 12px;
+		display: flex;
+		flex-direction:row;
+		justify-content: space-around;
+		align-items: flex-start;
+	}
+	#secBA li{
+		display: flex;
+		margin-bottom: 5px;
+		font-size: 1.2em;
+		align-items: center;	
+	}
+	#secBA li>div{
+		margin-right: 5px;	
+	}
+	#secBB{
+		width: 50%;
+		max-width: 180px;
+		position: relative;
+	}
+	#secBB>.no1{
+		width: 100%;
+		max-width: 150px;
+		position: absolute;
+		top:0%;
+		transform: translate(-60%,-30%);
+	}	
+	#secBB>div{
+		padding: 10px;
+	}
+	#secBB>div>img{
+		width: 100%;
+		height: 100%
+	}	
+
+
+
+		#mform{
+		background: white;
+		width:95%;
+		margin:20px auto;
+		padding: 15px;
+		border-radius: 10px;
+		display: flex;
+		flex-direction: column;
+		max-width:550px;
+		flex-grow: 1;
+		align-items: center;
+	}
+	#mform h1{
+		font-size: 2.3em;
+		text-align: center;
+		color: rgb(80,80,80);
+	}
+	#or-btn{
+		margin:10px auto;
+		padding:.2em 1em;
+		background: red;
+		color: white;
+		font-size: 1.4em;
+	}
+	input{
+		height: 35px;
+		border:1px solid grey;
+		border-radius: 5px;
+		margin-bottom: 15px;
+		width: 90%;
+		padding: 0 10px;
+	}
+
+	#secC{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-wrap: wrap;
+	}
+	#secC>div{
+		flex-grow: 1;
+		width: 100%;
+	}
+	#secCB{
+		padding: 15px;
+		text-align: center;
+		color: white;
+	}
+	#secCB .secCBA{
+		background: red;
+		padding: 10px;
+		border-radius: 8px;
+	}
+
+	#secCB .secCBA h1{
+		color: yellow;
+		font-size: 2.2em;
+	}	
+
+	#secCB>div>img{
+		max-width: 100%;
+		max-height: 100%;
+	}
+		#secD{
+	}
+	#secDA{
+		padding:60px 25px;
+		text-align: center;
+		background: white;
+		background: radial-gradient(white, lightgreen,lightgreen, green)
+	}
+	#secDA>img{
+		max-width: 100%;
+		max-height: 100%;		
+	}
+	#secDB{
+		background: yellow;
+		padding: 18px 10px;
+		color: red;
+		text-align: center;
+	}
+	#secDB>h1{
+		font-size: 2.5em;
+	}
+	#secDB>h2{
+		font-size: 2em;
+	}	
+
+	#callnow3{
+		z-index: 100;
+		position: fixed;
+		top: 0;
+		right: 0;
+		left: 0;
+		background: black;
+		background: rgba(0,0,0,.9);
+		padding: 10px;
+		height: 100px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	#callnow3 img{
+		height: 60px;
+  		animation-name: exampleb;
+  		animation-duration: .7s;
+  		animation-iteration-count: infinite;
+  		animation-timing-function: linear;		
+	}
+	@keyframes exampleb {
+  0%   {height: 75px}
+  50% {height: 65px;}
+  100% {height: 75px;}
+}
+
+
+	#callnow4{
+		padding: 40px;
+		height: 100px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	#callnow4 img{
+		height: 60px;
+  		animation-name: examplec;
+  		animation-duration: .7s;
+  		animation-iteration-count: infinite;
+  		animation-timing-function: linear;		
+	}
+	@keyframes examplec {
+  0%   {height: 75px}
+  50% {height: 65px;}
+  100% {height: 75px;}
+}
+
+
+
+
+
+	
+
+
+@media screen and (min-width:580px) {
+  body {
+    font-size: 12px;
+  }
+}
+@media screen and (min-width:768px) {
+  body {
+    font-size: 13px;
+  }
+	#secC>div{
+		width: 40%;
+	}  
+}
+@media screen and (min-width:900px) {
+  body {
+    font-size: 14px;
+  }
+}
